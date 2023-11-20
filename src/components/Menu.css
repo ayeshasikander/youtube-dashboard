@@ -62,3 +62,14 @@
     width: 15px;
     transition: all 0.3s
 }
+
+#last-menu{
+    margin-top: auto;
+}
+
+@media (max-width:525px) {
+    .menu{
+        min-width: 68px;
+        width: 68px;
+    }
+}
