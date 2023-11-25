@@ -43,8 +43,9 @@ const MainSection = () => {
                             <button className="button-sort"><a href="/">Live</a></button>
                         </div>
                     </div>
-                    <main>
-                        <Card/>
+                    <main className='bottom-part'>
+                        <Card />
+                        
                     </main>
                 </div>
 

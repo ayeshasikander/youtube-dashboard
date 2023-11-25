@@ -256,7 +256,12 @@
     font-weight: bold;
 }
 
-
+.bottom-part{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
 
 
 @media (max-width:1000px) {
