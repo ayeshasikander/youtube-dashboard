@@ -15,13 +15,10 @@
     display: none;
 }
 
-.main-section .right-panel {
-    width: calc(100% - 70%);
-}
 
 .main-section .left-panel .banner {
     height: 240px;
-    background: blue;
+    /* background: blue; */
     background: url('../Assets/birds.jpg');
     background-size: cover;
     background-position: center;
@@ -256,11 +253,92 @@
     font-weight: bold;
 }
 
-.bottom-part{
+.bottom-part {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 20px;
+}
+
+.main-section .right-panel {
+    width: calc(100% - 70%);
+    padding: 0px 10px;
+    padding-left: 20px;
+    transition: all 0.3s cubic-bezier(0.17, 0.81, 0.38, 0.78);
+}
+
+.main-section .right-panel .top-right,
+.main-section .right-panel .right-bottom {
+    padding: 10px 20px;
+    background: #08083677;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.445);
+    border-radius: .5em;
+}
+
+.main-section .right-panel .top-right .card-title,
+.main-section .right-panel .right-bottom .bottom-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-section .right-panel .top-right .card-title h2,
+.main-section .right-panel .right-bottom .bottom-title h2 {
+    color: #fff;
+}
+
+.main-section .right-panel .top-right .card-title a,
+.main-section .right-panel .right-bottom .bottom-title a {
+    color: #FFC000;
+}
+
+.main-section .right-panel .top-right .rating {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+
+.main-section .right-panel .top-right .rating p {
+    margin: 8px 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f8f7f6;
+    font-size: 16px;
+}
+
+.main-section .right-panel .top-right .rating p:first-child {
+    font-size: 19px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.main-section .right-panel .top-right .rating p:nth-child(even) {
+    background: #02021A;
+    border-radius: 0.3em;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.main-section .right-panel .right-bottom {
+    margin-top: 10px;
+}
+
+.right-bottom .logo-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.right-bottom .logo-section img {
+    border: 2px  solid;
+    border-radius: 50%;
+    height: 65px;
+    width: 63px;
+    margin: 5px;
 }
 
 

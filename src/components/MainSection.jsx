@@ -1,6 +1,8 @@
 import React from 'react';
 import './MainSection.css';
 import Card from './Card';
+import RightTop from './RightTop';
+import RightBottom from './RightBottom';
 const MainSection = () => {
     return (
         <div className='main-section'>
@@ -45,15 +47,13 @@ const MainSection = () => {
                     </div>
                     <main className='bottom-part'>
                         <Card />
-                        
                     </main>
                 </div>
 
             </div>
             <div className="right-panel">
-                <h1>hello
-                    grdn
-                </h1>
+               <RightTop/>
+               <RightBottom/>
             </div>
         </div>
     )
