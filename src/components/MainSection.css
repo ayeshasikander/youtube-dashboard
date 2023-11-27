@@ -334,7 +334,7 @@
 }
 
 .right-bottom .logo-section img {
-    border: 2px  solid;
+    border: 2px solid;
     border-radius: 50%;
     height: 65px;
     width: 63px;
@@ -353,13 +353,66 @@
 
 }
 
+@media (min-width:525px)and (max-width:950px) {
+    .main-section {
+        height: calc(100% - 25px);
+    }
+
+    .main-section .left-panel {
+        width: calc(100% - 35%);
+    }
+
+    .main-section .right-panel {
+        width: calc(100% - 65%);
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .main-section .left-panel .cards .filters{
+        padding: 0;
+    }
+    .right-bottom{
+        padding: 0;
+    }
+
+}
+
+.right-panel::-webkit-scrollbar {
+    display: none;
+}
+
 @media (max-width:525px) {
     .main-section .left-panel .banner .text h1 {
-        font-size: 22px;
+        font-size: 2.5em;
     }
 
     .main-section .left-panel .banner .text p {
-        font-size: 10px;
+        font-size: 0.8em;
     }
+
+
+    .main-section {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main-section .left-panel .banner .face {
+        height: 0;
+        width: 0;
+    }
+
+    .main-section .left-panel {
+        width: 100%;
+    }
+
+    .main-section .cards .filters .filter-buttons {
+        display: none;
+    }
+
+    .main-section .right-panel {
+        width: 100%;
+        padding: unset;
+        margin-top: 20px;
+    }
+
 
 }

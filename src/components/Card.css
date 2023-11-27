@@ -19,16 +19,14 @@
   flex-direction: column;
   position: relative;
 }
-.card .top-section1 img{
+
+.card .top-section1 img {
   object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
   border-radius: 15px;
 }
-
-
-
 
 .card .top-section1 .icons {
   position: absolute;
@@ -105,3 +103,10 @@
   border-left: 1px solid rgba(255, 255, 255, 0.126);
   border-right: 1px solid rgba(255, 255, 255, 0.126);
 }
+
+@media (max-width:525px) {
+  .main-section .left-panel .card {
+    width: 320px;
+  }
+}
+

@@ -8,16 +8,16 @@ const MainSection = () => {
         <div className='main-section'>
             <div className="left-panel">
                 <div className="banner">
-                    <div class="face">
-                        <p class="v-index">II
+                    <div className="face">
+                        <p className="v-index">II
                         </p>
-                        <p class="h-index">II
+                        <p className="h-index">II
                         </p>
-                        <div class="hand">
-                            <div class="hand">
-                                <div class="hour"></div>
-                                <div class="minute"></div>
-                                <div class="second"></div>
+                        <div className="hand">
+                            <div className="hand">
+                                <div className="hour"></div>
+                                <div className="minute"></div>
+                                <div className="second"></div>
                             </div>
                         </div>
                     </div>
