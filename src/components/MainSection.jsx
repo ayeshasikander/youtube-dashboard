@@ -50,7 +50,11 @@ const MainSection = () => {
                 </div>
 
             </div>
-            <div className="right-panel"></div>
+            <div className="right-panel">
+                <h1>hello
+                    grdn
+                </h1>
+            </div>
         </div>
     )
 }
